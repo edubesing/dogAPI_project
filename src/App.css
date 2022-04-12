@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+.App-header {
+  background-color: #777DA7;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.paw-icon {
+  width: 10vh;
+  height: auto;
+  padding: 2vh;
+}
+
+.title {
+  font-size: 44px;
+  font-family: 'Libre Baskerville', serif;
+  color: #F4FFFD;
+  font-weight: 400;
+}
+
+.subtitle {
+  text-align: center;
+  padding: 2vh;
+  font-size: 28px;
+  color: #211103;
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-weight: 400;
+}
+
+button {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.addImg {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.mostrar-mais {
+  text-align: center;
+  font-size: 24px;
+  color: #ED254E;
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-weight: 400;
+  margin: 5px;
+}
+
+.images{
+  display: flexbox;
+  justify-content: space-around;
+  text-align: center;
+  margin-right: 32px;
+  margin-left: 32px;
+}
+
+.resultado{
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  margin-top: 0px;
+  width: 40vh;
+  height: 40vh;
+  object-fit: cover;
+}
